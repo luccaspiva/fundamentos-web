@@ -1,0 +1,56 @@
+/*Estilos da página index.html*/
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+display: inline;
+padding: 15px;
+font-size: 20px;
+}
+
+/*referente ao sublinhado e cor dos links*/
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Quando o ponteiro estiver sob o menu, ele muda de cor*/
+#menu li a:hover{
+    color: gray
+}
+
+.p30 {
+    padding: 30px
+}
+
+.br50 {
+    border-radius: 50%;
+}
+
+.wh300 {
+    width: 300px;
+    height: 300px;
+}
+
+.tmSocial {
+    width: 30px;
+    height: 30px;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+
+
+
+/*Estilos da página contato.html*/

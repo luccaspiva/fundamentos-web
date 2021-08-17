@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -17,15 +20,50 @@
         </li>
     </ul>
 
-    <h1>Sobre o Lucas</h1>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam rerum numquam velit dolorum reiciendis quia, mollitia, excepturi enim vitae, illo maiores porro repellat optio incidunt nihil doloribus animi recusandae?</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum commodi enim repellat, eligendi quae quibusdam nisi dolores vel velit fugit distinctio odio modi? Quo accusantium repudiandae id cumque? Aperiam!</p>
+    <h1 class="center">Sobre o Lucas</h1>
 
-    <img src="./assets/img/profile.jpg" alt="Foto do criador desse conteúdo">
+    <div class="container">
+        <div class="p30">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ullam rerum numquam velit dolorum reiciendis
+                quia, mollitia, excepturi enim vitae, illo maiores porro repellat optio incidunt nihil doloribus animi
+                recusandae?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum commodi enim repellat, eligendi
+                quae quibusdam nisi dolores vel velit fugit distinctio odio modi? Quo accusantium repudiandae id cumque?
+                Aperiam!</p>
+        </div>
+       
+        <div>
+            <img class="br50 wh300 p30" src="./assets/img/profile.jpg" alt="Foto do criador desse conteúdo">
+        </div>
+      
 
-    <h2>Meu clipe predileto:</h2>
+      
+    </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bhxhNIQBKJI?start=6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <h2 class="center">Meu clipe predileto:</h2>
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/bhxhNIQBKJI?start=6"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  
+    <footer>
+        <hr>
+        <div class="container">
+            <img class="tmSocial p30" src="./assets/img/facebook.png" alt="Logo do Facebook">
+            <img class="tmSocial p30" src="./assets/img/instagram.png" alt="Logo do Instagram">
+            <img class="tmSocial p30" src="./assets/img/linkedin.png" alt="Logo do LinkedIn">
+            <img class="tmSocial p30" src="./assets/img/github.png" alt="Logo do Github">
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: &copy Lucas Piva
+        </p>
+    </footer>
+
 </body>
+
 </html>
